@@ -83,7 +83,7 @@ const Calculadora = () => {
           <div className="box-AlturaParede">
             <p className="intup-desc">{`Informe a altura da parede:`}</p>
             <input
-              className="input-calc"
+              className="input-calc input-setas"
               type="number"
               name="alturaParede"
               //   value={alturaParede}
@@ -96,7 +96,7 @@ const Calculadora = () => {
           <div className="box-LarguraParede">
             <p className="intup-desc">{`Informe a largura da parede:`}</p>
             <input
-              className="input-calc"
+              className="input-calc input-setas"
               type="number"
               name="larguraParede"
               onChange={(evento) =>
